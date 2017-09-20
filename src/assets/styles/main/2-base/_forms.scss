@@ -1,0 +1,18 @@
+.form-group {
+  margin-bottom: 6px;
+}
+
+.form-control {
+  color: #4a4a4a;
+  font-size: 12px;
+  box-shadow: inset 0 0 3px 0 rgba(0,70,126,0.33);
+  border: none;
+  border-radius: 0;
+  @include placeholder {
+    font-size: 12px;
+    color: #4a4a4a;
+  }
+  @include breakpoint(sm) {
+    padding: rem(11) 0.75rem;
+  }
+}

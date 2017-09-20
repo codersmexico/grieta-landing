@@ -1,0 +1,5 @@
+name: judy-canales
+root: ~/git/judy-canales
+windows:
+  - editor: eval $EDITOR
+  - gulp: yarn code

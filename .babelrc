@@ -1,0 +1,21 @@
+{
+  "presets": [
+    [
+      "env",
+    {
+      "targets": {
+        "browsers": ["last 2 versions", "iOS 8"],
+        "uglify": 2
+      }
+    }
+    ]
+  ],
+  "plugins": [
+    [
+      "transform-object-rest-spread",
+    {
+      "useBuiltIns": true
+    }
+    ]
+  ]
+}

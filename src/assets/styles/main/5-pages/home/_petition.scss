@@ -1,0 +1,29 @@
+.petition {
+  padding: 20px 0;
+  text-align: center;
+  @include breakpoint(md) {
+    padding: 50px 0;
+  }
+
+  h1 {
+    color: $blue;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: (27/20);
+    margin-bottom: 15px;
+  }
+
+  strong {
+    font-weight: 700;
+  }
+
+  a:not(.btn) {
+    color: $blue;
+  }
+
+}

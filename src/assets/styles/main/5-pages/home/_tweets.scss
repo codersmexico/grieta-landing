@@ -1,0 +1,64 @@
+.tweets {
+  background: rgba($blue, 0.3);
+  padding: 20px 0;
+  text-align: center;
+
+  [class^='icon-'] {
+    color: $blue;
+    @include size(20px);
+  }
+
+  .top-twitter {
+    .icon-twitter {
+      @include size(30px, 25px);
+      display: block;
+      margin: 0 auto 10px;
+      color: $blue;
+    }
+  }
+
+  .slider {
+    font-size: 20px;
+    p {
+      margin-bottom: 10px;
+    }
+  }
+
+  .stamp {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  a {
+    color: rgba($blue, 0.64);
+  }
+
+  .social-networks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a {
+      display: block;
+      @include size(20px);
+    }
+    li {
+      margin-left: 10px;
+    }
+  }
+
+  .social-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p {
+      margin-bottom: 0;
+      font-size: 18px;
+      font-weight: 700;
+      text-transform: uppercase;
+      line-height: 1;
+    }
+  }
+}
