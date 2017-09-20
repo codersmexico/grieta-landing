@@ -1,5 +1,0 @@
-name: grietas
-root: ~/git/grietas
-windows:
-  - editor: eval $EDITOR
-  - gulp: yarn code
