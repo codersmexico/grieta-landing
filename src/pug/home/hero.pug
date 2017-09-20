@@ -2,29 +2,24 @@ header.home-hero
   .container
     .overlay
       .call-to-action
-        a.logo(href='/' title='Judy Canales')
-          +img('logo.png', 'Judy Canales Logo')
+        a.logo(href='/' title='#RevisaMiGrieta')
+          h1 #RevisaMiGrieta
+
         .embed-responsive.embed-responsive-16by9.video-toggle
           iframe.embed-responsive-item(
-            src="https://www.youtube-nocookie.com/embed/k2LMCQEsYBw?rel=0&amp;controls=0&amp;showinfo=0"
+            src="https://www.youtube-nocookie.com/embed/ZN4syXtf22s?rel=0&amp;controls=0&amp;showinfo=0"
             frameborder="0"
             allowfullscreen
           )
 
-        h4.text-primary Join Our Campaign
-        hr
-        form
-          .form-group
-            label.sr-only(for='email') Your Email Address
-            input.form-control#email(type='email' placeholder='Your Email Address')
-          .form-group.special-row
-            label.sr-only(for='zip') ZIP Code
-            .column
-              input.form-control#zip(type='text' placeholder='ZIP Code')
-            .column
-              button.btn.btn-block.btn-primary(type='submit') Join
-        hr
+        h4.text-warning Importante
+        a(href='assets/images/grieta.jpg' target='_blank')
+          +img('grieta.jpg', 'Grietas Peligrosas')
+        p Si en tu casa hay grietas así necesitas evacuar inmediatamente.
+
+        h4.text-primary Únete a la discusión
+        p Usa el hashtag #[a.link(href='https://twitter.com/hashtag/RevisaMiGrieta') #RevisaMiGrieta] con una foto de tu casa para recibir recomendaciones de seguridad.
+        p Revisa el video de arriba para estar más al pendiente.
         ul.social-networks
-          li: a(href='https://www.facebook.com/judith.canales.58?ref=br_rs'): +svg('facebook')
-          //-li: a(href='https://twitter.com/CesarJBlanco'): +svg('twitter')
-          //-li: a(href='#'): +svg('youtube')
+          li: a(href='https://twitter.com/RevisaMiGrieta'): +svg('twitter')
+          li: a(href='https://www.youtube.com/watch?v=ZN4syXtf22s'): +svg('youtube')

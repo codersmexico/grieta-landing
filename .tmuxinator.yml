@@ -1,5 +1,5 @@
-name: judy-canales
-root: ~/git/judy-canales
+name: grietas
+root: ~/git/grietas
 windows:
   - editor: eval $EDITOR
   - gulp: yarn code
