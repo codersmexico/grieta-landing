@@ -20,9 +20,6 @@ html(lang='en')
 
   body
     include includes/mixins
-    <!--[if IE]>
-      p You are using an #[strong outdated] browser. Please #[a(href="http://browsehappy.com/") upgrade your browser] to improve your experience.
-    <![endif]-->
     include general/menu
     block content
       //- This gets replaced by content per page
@@ -37,5 +34,8 @@ html(lang='en')
     else
       script(src='assets/js/vendor.js')
       script(src='assets/js/main.js')
+
+    script(async src="//platform.twitter.com/widgets.js" charset="utf-8")
+
     block scripts
       //- Also if more scripts are needed you can hook in here <3

@@ -7,14 +7,13 @@
   text-align: center;
   border-bottom: 10px solid $blue;
   padding-top: 10px;
-  min-height: 100vh;
 
   @include breakpoint(sm) {
     padding-top: 0;
   }
 
   @include breakpoint(md) {
-    padding-bottom: 110px;
+    padding-bottom: 80px;
   }
 
   &::before {

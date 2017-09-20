@@ -10,3 +10,11 @@ mixin img(name, alt)
     img(src=`assets/images/${name}` alt= alt ? alt : '')
   else
     img(src=`assets/images/${name}` alt= alt ? alt : '')
+
+mixin tuitazo(options)
+  .col-md-4
+    blockquote.twitter-tweet(data-lang="es")
+      p(lang='es', dir='ltr')= options.tweet
+        a(href=`https://t.co/${options.id}`) pic.twitter.com/#{options.id}
+      | — #{options.author} (@#{options.hangle})
+      a(href= options.link)= options.date
