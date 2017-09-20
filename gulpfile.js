@@ -69,3 +69,5 @@ gulp.task('serve', gulp.parallel('browser-sync', 'watch'))
 gulp.task('release', gulp.series('build', 'zip'))
 
 gulp.task('default', gulp.series('build', 'serve'))
+
+gulp.task('deploy', gulp.series('build', 'ghPages'))
