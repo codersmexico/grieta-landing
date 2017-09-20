@@ -17,7 +17,6 @@ global.Tether = _tether2.default;
 require('bootstrap');
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-
 },{"bootstrap":"bootstrap","jquery":"jquery","tether":"tether"}],2:[function(require,module,exports){
 'use strict';
 
@@ -41,6 +40,4 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 require('./general');
 
-},{"./general":2}]},{},[4])
-
-//# sourceMappingURL=main.js.map
+},{"./general":2}]},{},[4]);
