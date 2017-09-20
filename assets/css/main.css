@@ -145,14 +145,13 @@ a {
   padding-bottom: 40px;
   text-align: center;
   border-bottom: 10px solid #0d719a;
-  padding-top: 10px;
-  min-height: 100vh; }
+  padding-top: 10px; }
   @media (min-width: 576px) {
     .home-hero {
       padding-top: 0; } }
   @media (min-width: 768px) {
     .home-hero {
-      padding-bottom: 110px; } }
+      padding-bottom: 80px; } }
   .home-hero::before {
     position: absolute;
     content: '';
